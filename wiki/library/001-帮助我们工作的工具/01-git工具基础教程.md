@@ -36,7 +36,7 @@ apt-get install git
 如果是redhat,centos...执行
 yum install git
   ```
-##  如何使用
+####  常用命令
 + 查看、添加、提交、删除、找回，重置修改文件  
 git help <command> # 显示command的help  
 git show # 显示某次提交的内容 git show $id  
