@@ -2,7 +2,7 @@
 
 <br>
 
-![欢迎访问GCoperation's Wiki！](amWiki/images/logo.png "欢迎使用amWiki！")
+![欢迎访问GCoperation's Wiki！](amWiki/images/logo.png)
 ## 如何修改本wiki
 ### 工具篇（点击直接前往连接处）
 + 申请并登陆[github账号](https://github.com/join?source=header-home)
