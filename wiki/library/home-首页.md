@@ -2,4 +2,4 @@
 
 <br>
 
-![欢迎访问GCoperation's Wiki！](amWiki/images/logo.png "欢迎使用amWiki！") 
+![欢迎访问GCoperation's Wiki！](amWiki/images/logo.png "欢迎使用amWiki！")
