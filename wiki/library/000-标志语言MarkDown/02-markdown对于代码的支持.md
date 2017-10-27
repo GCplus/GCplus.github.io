@@ -92,7 +92,7 @@ textarea {
     -webkit-appearance: none;
 }
 ```
-## php代码不支持
+## php代码
 普通代码效果
 ```
 private function addQuestData($data, $filing_id)
