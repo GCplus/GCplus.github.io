@@ -16,7 +16,7 @@
 2. 然后同步到本地仓库
 3. 按照下面要求进行修改
 4. 将修改同步到你的github仓库
-5. 将修改推送给我们
+5. 将修改推送到主仓库
 ### 注意点
 + 本wiki采用markdown书写，markdown[参考教程](https://gcoperation.github.io/wiki/?file=000-%E6%A0%87%E5%BF%97%E8%AF%AD%E8%A8%80MarkDown/00-%E5%89%8D%E8%A8%80)
 + 本wiki[参考范文](https://gcoperation.github.io/wiki/?file=000-%E6%A0%87%E5%BF%97%E8%AF%AD%E8%A8%80MarkDown/09-%E5%8F%82%E8%80%83%E8%8C%83%E6%96%87)
