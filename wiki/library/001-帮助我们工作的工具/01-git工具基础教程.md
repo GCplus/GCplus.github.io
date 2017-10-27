@@ -38,7 +38,7 @@ yum install git
   ```
 #### 常用命令
 如果是日常使用记住下图几个就可以了  
-![](/wiki/image/git0cmd-use.png)
+![](/wiki/image/git-cmd-use.png)
 名词的翻译如下:
 
 |名词|翻译|
