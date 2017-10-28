@@ -8,7 +8,7 @@
 + 申请并登陆[github账号](https://github.com/join?source=header-home)
 + 下载安装[atom编辑器](https://atom.io/)
 + 下载安装windows的git工具(推荐[github on desktop](https://desktop.github.com/))
-+ 如果你工作在linux环境下，请参考[git配置](#)
++ 如果你工作在linux环境下，请参考[git基础教程](https://gcoperation.github.io/wiki/?file=001-%E5%B8%AE%E5%8A%A9%E6%88%91%E4%BB%AC%E5%B7%A5%E4%BD%9C%E7%9A%84%E5%B7%A5%E5%85%B7/01-git%E5%B7%A5%E5%85%B7%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B)
 ### atom环境安装
 请参考[amWiki官方帮助](https://amwiki.org/doc/?file=010-%E4%B8%8A%E6%89%8B%E5%AF%BC%E8%AF%BB%E7%AF%87/001-Atom%E5%B9%B3%E5%8F%B05%E5%88%86%E9%92%9F%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B)
 ### 如何修改
