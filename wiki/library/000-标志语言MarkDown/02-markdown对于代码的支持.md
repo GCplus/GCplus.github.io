@@ -1,5 +1,5 @@
 # markdown对于代码的支持
->当前版本：v1.0  
+>当前版本：v1.1  
 >维护人：Jhin  
 >维护时间：2017年10月27日
 
@@ -199,7 +199,10 @@ print('hello, world')
 ## 章节引用
 + [markdown语法高亮-amWiki]( https://amwiki.org/doc/?file=020-%E6%95%99%E7%A8%8B%E5%AD%A6%E4%B9%A0%E7%AF%87/005-%E5%AD%A6%E4%B9%A0markdown/02-Markdown%E8%AF%AD%E6%B3%95%E9%AB%98%E4%BA%AE)
 + [highlight.js-GitHub](https://github.com/isagalaev/highlight.js)
+
 ## 历史版本
+
 | 版本号 | 维护人 |维护时间 |维护内容|
 | :- | :- | :-| :- |
 | v1.0 | [Jhin](http://blog.link-lin.cn) |2017-10-27|创建了本词条|
+|v1.1|[Jhin](http://blog.link-lin.cn)|2047-11-12|修改本词条的历史版本显示bug|
