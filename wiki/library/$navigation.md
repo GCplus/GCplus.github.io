@@ -46,3 +46,8 @@
 
 ##### 未来语言go
 - [总章](?file=006-未来语言go/00-总章 "总章")
+- [go语言环境搭建](?file=006-未来语言go/01-go语言环境搭建 "go语言环境搭建")
+
+##### windows server应用
+- [总章](?file=007-windows server应用/00-总章 "总章")
+- [安装windows server](?file=007-windows server应用/01-安装windows server "安装windows server")
