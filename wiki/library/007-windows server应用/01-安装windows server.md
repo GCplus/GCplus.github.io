@@ -6,8 +6,9 @@
 ## 安装windows server
 windows server的安装与windows的安装一样，下面为windows server2012安装时的部分截图
 
+<div align="center">
 ![](/wiki/image/windows/install/windows2012-1.jpg)  
-<div align="center">开始界面</div>
+开始界面</div>
 
 ![](/wiki/image/windows/install/windows2012-2.jpg)  
 <div align="center">启动安装界面</div>
