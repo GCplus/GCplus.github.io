@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0; text-decoration: none;}
+body
+{
+	background-image:url("../img/beijing.jpg");
+
+}
+#banner
+{
+	margin-top:20px;
+	text-align:center;
+	
+}
+#content
+{
+	height:530px;}
+.txt
+{
+	text-align:center;
+	font-family:"微软雅黑";
+	color:#FFF;
+	font-size:18px;
+	margin-top:40px;
+}
+.img
+{
+	text-align:center;
+	margin-top:50px;
+}
