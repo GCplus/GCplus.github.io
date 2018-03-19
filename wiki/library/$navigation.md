@@ -51,3 +51,6 @@
 ##### windows server应用
 - [总章](?file=007-windows server应用/00-总章 "总章")
 - [安装windows server](?file=007-windows server应用/01-安装windows server "安装windows server")
+
+##### PostgreSQL数据库
+- [总章](?file=008-PostgreSQL数据库/00-总章 "总章")
