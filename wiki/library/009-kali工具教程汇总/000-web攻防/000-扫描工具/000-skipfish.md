@@ -31,3 +31,34 @@ Skipfish是一个命令行模式，以C语言编写的积极的Web应用程序�
 ```skipfish -o test -X /string/ http://#```
 
 -X 不扫描包含string字符串的网页地址
+
++
+```skipfish -o test -S complete.wl http:#```
+
+-S为加载字典 差点查找方法 ```dpkg -L skipfish | grup wl```
+
++
+```skipfish -o test -K http:# ```
+
+-K 指不对url中的变量进行模糊测试（fuzz）
+
++
+```skipfish -O test -D url http:#```
+
+-D 为跨站点扫描其他域 可添加别的域名进行扫描
+
++
+```skipfish -O test -l 10 -m 100 http:#```
+
+-l 为每秒最大请求数 -m 每个IP最大并发数 为了躲避连接限制
+
+***
+## 基于身份认证的网络扫描
+
+```skipfish -A user:pass -o test http://1.1.1.1```
+
+基本http身份认证
+
+```skipfish  -C "PHPSESSID=" -C "security=" -o test http://1.1.1.1```
+
+#基于cookie
