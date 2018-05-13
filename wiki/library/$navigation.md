@@ -56,3 +56,8 @@
 
 ##### PostgreSQL数据库
 - [总章](?file=008-PostgreSQL数据库/00-总章 "总章")
+
+##### kali工具教程汇总
+- **web攻防**
+    - **扫描工具**
+        - [skipfish](?file=009-kali工具教程汇总/00-web攻防/00-扫描工具/000-skipfish "skipfish")
