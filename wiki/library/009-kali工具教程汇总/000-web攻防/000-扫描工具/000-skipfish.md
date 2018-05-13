@@ -54,3 +54,8 @@ Skipfish是一个命令行模式，以C语言编写的积极的Web应用程序�
 ```skipfish  -C "PHPSESSID=" -C "security=" -o test http://1.1.1.1```
 
 #基于cookie
+
+
+| 版本号 | 维护人 |维护时间 |维护内容|
+| :- | :- | :-| :- |
+| v1.0 | [yuluo](http://www.yuluo-zy.com) |2018-05-13|创建了本词条|
