@@ -59,5 +59,4 @@
 
 ##### kali工具教程汇总
 - **web攻防**
-    - **扫描工具**
-        - [skipfish](?file=009-kali工具教程汇总/00-web攻防/00-扫描工具/000-skipfish "skipfish")
+    - [扫描工具skipfish](?file=009-kali工具教程汇总/00-web攻防/00-扫描工具skipfish "扫描工具skipfish")

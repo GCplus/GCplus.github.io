@@ -1,8 +1,14 @@
 # skipfish
+>当前版本：v1.1  
+>维护人：yuluo  
+>维护时间：2018年05月14日  
+
+***本文残缺，仍待补充***
+
 ***
 Skipfish是一个命令行模式，以C语言编写的积极的Web应用程序的安全性侦察工具，没有代理模式。 它准备了一个互动为目标的网站的站点地图进行一个递归爬网和基于字典的探头。
 
-### 特点
+## 特点
 + 多路单线程
 + 全异步网络I/O
 + 启发式内容识别
@@ -30,7 +36,7 @@ Skipfish是一个命令行模式，以C语言编写的积极的Web应用程序�
 
 + ```skipfish -o test -S complete.wl http:#```
 
--S为加载字典 差点查找方法 ```dpkg -L skipfish | grup wl```
+-S为加载字典 差点查找方法   ```dpkg -L skipfish | grup wl```
 
 + ```skipfish -o test -K http:# ```
 
@@ -59,3 +65,4 @@ Skipfish是一个命令行模式，以C语言编写的积极的Web应用程序�
 | 版本号 | 维护人 |维护时间 |维护内容|
 | :- | :- | :-| :- |
 | v1.0 | [yuluo](http://www.yuluo-zy.com) |2018-05-13|创建了本词条|
+| v1.1 | [Jhin](http://blog.link-lin.cn) |2018-5-14|修正了词条格式|
