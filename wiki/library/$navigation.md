@@ -45,6 +45,9 @@
     - [总章](?file=004-计算机编程语言/002-面向对象和过程的C++/00-总章 "总章")
 - **面向对象的Java**
     - [总章](?file=004-计算机编程语言/003-面向对象的Java/00-总章 "总章")
+- **誉为未来语言的Go**
+    - [总章](?file=004-计算机编程语言/004-誉为未来语言的Go/00-总章 "总章")
+    - [go语言环境搭建](?file=004-计算机编程语言/004-誉为未来语言的Go/01-go语言环境搭建 "go语言环境搭建")
 
 ##### linux操作教程
 - **centos教程**
@@ -52,20 +55,16 @@
     - [安装虚拟机和操作系统](?file=005-linux操作教程/001-centos教程/01-安装虚拟机和操作系统 "安装虚拟机和操作系统")
     - [配置虚拟机](?file=005-linux操作教程/001-centos教程/02-配置虚拟机 "配置虚拟机")
 
-##### 未来语言go
-- [总章](?file=006-未来语言go/00-总章 "总章")
-- [go语言环境搭建](?file=006-未来语言go/01-go语言环境搭建 "go语言环境搭建")
-
 ##### windows server应用
-- [总章](?file=007-windows server应用/00-总章 "总章")
-- [安装windows server](?file=007-windows server应用/01-安装windows server "安装windows server")
+- [总章](?file=006-windows server应用/00-总章 "总章")
+- [安装windows server](?file=006-windows server应用/01-安装windows server "安装windows server")
 
 ##### PostgreSQL数据库
-- [总章](?file=008-PostgreSQL数据库/00-总章 "总章")
+- [总章](?file=007-PostgreSQL数据库/00-总章 "总章")
 
 ##### kali工具汇总
 - **web攻防**
-    - [扫描工具skipfish](?file=009-kali工具汇总/00-web攻防/00-扫描工具skipfish "扫描工具skipfish")
+    - [扫描工具skipfish](?file=008-kali工具汇总/00-web攻防/00-扫描工具skipfish "扫描工具skipfish")
 
 ##### git教程
-- [总章](?file=010-git教程/00-总章 "总章")
+- [总章](?file=009-git教程/00-总章 "总章")
