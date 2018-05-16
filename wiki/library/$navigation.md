@@ -59,12 +59,14 @@
 - [总章](?file=006-windows server应用/00-总章 "总章")
 - [安装windows server](?file=006-windows server应用/01-安装windows server "安装windows server")
 
-##### PostgreSQL数据库
-- [总章](?file=007-PostgreSQL数据库/00-总章 "总章")
+##### 数据库基础
+- **SQL语句**
+- **PostgreSQL**
+    - [总章](?file=007-数据库基础/001-PostgreSQL/00-总章 "总章")
 
-##### kali工具汇总
+##### 网络安全工具
 - **web攻防**
-    - [扫描工具skipfish](?file=008-kali工具汇总/00-web攻防/00-扫描工具skipfish "扫描工具skipfish")
+    - [扫描工具skipfish](?file=008-网络安全工具/00-web攻防/00-扫描工具skipfish "扫描工具skipfish")
 
 ##### git教程
 - [总章](?file=009-git教程/00-总章 "总章")
