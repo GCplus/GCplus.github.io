@@ -57,7 +57,7 @@
 
 ##### windows server应用
 - [总章](?file=006-windows server应用/00-总章 "总章")
-- [安装windows Server](?file=006-windows server应用/01-安装windows Server "安装windows Server")
+- [安装windowsServer](?file=006-windows server应用/01-安装windowsServer "安装windowsServer")
 - [部署DNS服务](?file=006-windows server应用/02-部署DNS服务 "部署DNS服务")
 
 ##### 数据库基础
