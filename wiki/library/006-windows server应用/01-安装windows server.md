@@ -1,7 +1,7 @@
-# 通过网络安装windows
-> 当前版本：v1.0  
+# 安装Windows Server
+> 当前版本：v1.1  
 >维护人：Jhin  
->维护时间：2017年12月19日
+>维护时间：2018年05月19日
 
 ## 安装windows server
 windows server的安装与windows的安装一样，下面为windows server2012安装时的部分截图
@@ -34,21 +34,13 @@ windows server的安装与windows的安装一样，下面为windows server2012�
 ![](/wiki/image/windows/setting/setpassword.jpg)
 </div>
 
-## 添加windows部署服务
+#### 稍等片刻就可以安装完成
 
-<div align="center">
-![](/wiki/image/windows/wds/windows2012-1.jpg)  
-添加角色</div>
+## 章节来源
++ 无
 
-<div align="center">
-![](/wiki/image/windows/wds/windows2012-2.jpg)  
-第二步，启动安装</div>
-
-<div align="center">
-![](/wiki/image/windows/wds/windows2012-3.jpg)  
-选择服务器</div>
-
-<div align="center">
-![](/wiki/image/windows/wds/windows2012-4.jpg)  
-添加相应的dhcp、dns和windows部署服务</div>
-#### 一路下一步，等待安装完成
+## 历史版本
+| 版本号 | 维护人 |维护时间 |维护内容|
+| :- | :- | :-| :- |
+| v1.0 | [Jhin](http://blog.link-lin.cn) |2017-12-19|创建了本词条|
+|v1.1|[Jhin](http://blog.link-lin.cn)|2018-05-19|修正了本词条的格式和内容|
