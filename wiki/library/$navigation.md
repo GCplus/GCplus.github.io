@@ -48,6 +48,12 @@
 - **誉为未来语言的Go**
     - [总章](?file=004-计算机编程语言/004-誉为未来语言的Go/00-总章 "总章")
     - [go语言环境搭建](?file=004-计算机编程语言/004-誉为未来语言的Go/01-go语言环境搭建 "go语言环境搭建")
+- **学习Python**
+    - **1.Python简介**
+        - [1.Python简介](?file=004-计算机编程语言/005-学习Python/01-1.Python简介/01-1.Python简介 "1.Python简介")
+        - [2.发展历程](?file=004-计算机编程语言/005-学习Python/01-1.Python简介/02-2.发展历程 "2.发展历程")
+    - **2.Python安装**
+        - [1.python解释器安装](?file=004-计算机编程语言/005-学习Python/02-2.Python安装/01-1.python解释器安装 "1.python解释器安装")
 
 ##### linux操作教程
 - **centos教程**
@@ -70,10 +76,3 @@
 
 ##### git教程
 - [总章](?file=009-git教程/00-总章 "总章")
-
-##### 学习Python
-- **1.Python简介**
-    - [1.Python简介](?file=010-学习Python/01-1.Python简介/01-1.Python简介 "1.Python简介")
-    - [2.发展历程](?file=010-学习Python/01-1.Python简介/02-2.发展历程 "2.发展历程")
-- **2.Python安装**
-    - [1.python解释器安装](?file=010-学习Python/02-2.Python安装/01-1.python解释器安装 "1.python解释器安装")
