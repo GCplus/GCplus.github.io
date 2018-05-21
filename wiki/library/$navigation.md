@@ -61,7 +61,6 @@
 - [部署DNS服务](?file=006-windows server应用/02-部署DNS服务 "部署DNS服务")
 
 ##### 数据库基础
-- **SQL语句**
 - **PostgreSQL**
     - [总章](?file=007-数据库基础/001-PostgreSQL/00-总章 "总章")
 
@@ -71,3 +70,10 @@
 
 ##### git教程
 - [总章](?file=009-git教程/00-总章 "总章")
+
+##### 学习Python
+- **1.Python简介**
+    - [1.Python简介](?file=010-学习Python/01-1.Python简介/01-1.Python简介 "1.Python简介")
+    - [2.发展历程](?file=010-学习Python/01-1.Python简介/02-2.发展历程 "2.发展历程")
+- **2.Python安装**
+    - [1.python解释器安装](?file=010-学习Python/02-2.Python安装/01-1.python解释器安装 "1.python解释器安装")
