@@ -21,7 +21,9 @@
 + 本wiki采用markdown书写，markdown[参考教程](/wiki/?file=000-%E6%A0%87%E5%BF%97%E8%AF%AD%E8%A8%80MarkDown/00-%E5%89%8D%E8%A8%80)
 + 本wiki[参考范文](/wiki/?file=000-%E6%A0%87%E5%BF%97%E8%AF%AD%E8%A8%80MarkDown/09-%E5%8F%82%E8%80%83%E8%8C%83%E6%96%87)
 
-## 感谢以下人员对于wiki的贡献
+## 致谢名单
+感谢以下人员对于本知识库的贡献
++ [bxqmzdyx](https://github.com/bxqmzdyx)
 + [Gu-f](https://Gu-f.github.io/)
 + [Jhin](https://blog.link-lin.cn)
 + [yuluo](http://www.yuluo-zy.com)
