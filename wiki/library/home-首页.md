@@ -23,7 +23,7 @@
 
 ## 致谢名单
 感谢以下人员对于本知识库的贡献
-+ [@杨欣](#)
++ [bxqmzdyx](https://github.com/bxqmzdyx)
 + [Gu-f](https://Gu-f.github.io/)
 + [Jhin](https://blog.link-lin.cn)
 + [yuluo](http://www.yuluo-zy.com)
