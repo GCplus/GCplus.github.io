@@ -52,6 +52,7 @@
 - **学习Python**
     - [总章](?file=004-计算机编程语言/005-学习Python/00-总章 "总章")
     - [Python环境配置](?file=004-计算机编程语言/005-学习Python/01-Python环境配置 "Python环境配置")
+    - [pycharm安装](?file=004-计算机编程语言/005-学习Python/02-pycharm安装 "pycharm安装")
 
 ##### linux操作教程
 - **centos教程**
@@ -65,7 +66,6 @@
 - [部署DNS服务](?file=006-windows server应用/02-部署DNS服务 "部署DNS服务")
 
 ##### 数据库基础
-- **SQL语句**
 - **PostgreSQL**
     - [总章](?file=007-数据库基础/001-PostgreSQL/00-总章 "总章")
 
