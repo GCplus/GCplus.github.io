@@ -3,4 +3,6 @@
 >维护人：Jhin  
 >维护时间：2018年05月21日
 
-## Windows
+## jdk，jre和jvm的区别
++ #### jvm
+jvm是
