@@ -56,6 +56,7 @@
     - [认识Python交互式和自带shell](?file=004-计算机编程语言/005-学习Python/03-认识Python交互式和自带shell "认识Python交互式和自带shell")
     - [python输入输出](?file=004-计算机编程语言/005-学习Python/04-python输入输出 "python输入输出")
     - [认识变量和运算符](?file=004-计算机编程语言/005-学习Python/05-认识变量和运算符 "认识变量和运算符")
+    - [判断结构](?file=004-计算机编程语言/005-学习Python/06-判断结构 "判断结构")
 
 ##### linux操作教程
 - **centos教程**
