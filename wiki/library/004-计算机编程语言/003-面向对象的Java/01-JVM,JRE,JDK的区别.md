@@ -1,7 +1,7 @@
 # JVM，JRE,JDK的区别
->当前版本：v1.0  
+>当前版本：v1.1  
 >维护人：Jhin  
->维护时间：2018年05月21日
+>维护时间：2018年05月29日
 
 ## JVM
 Java虚拟机（英语：Java Virtual Machine，缩写为JVM），一种能够运行Java bytecode的虚拟机，以堆栈结构机器来进行实做。最早由太阳微系统所研发并实现第一个实现版本，是Java平台的一部分，能够运行以Java语言写作的软件程序。
@@ -39,27 +39,27 @@ JRE的内部有一个Java虚拟机（Java Virtual Machine，JVM）以及一些�
     <td>Java(Java版本历史·Java 5)、JVM(Java字节码)、Java ME、Java SE、Java EE、Java Card、Android SDK</td>
   </tr>
   <tr>
-    <td>Oracle技术</td>
+    <td align="right">Oracle技术</td>
     <td>Squawk、JDK、OpenJDK、Java虚拟机、JavaFX、Maxine VM</td>
   </tr>
   <tr>
-    <td>平台技术</td>
+    <td align="right">平台技术</td>
     <td>Applets、Servlets、MIDlet、JSP、Web Start(JNLP)</td>
   </tr>
   <tr>
-    <td>主要的第三方技术</td>
+    <td align="right">主要的第三方技术</td>
     <td>Blackdown、Eclipse、GNU Classpath、GWT、Harmony、Hibernate、IcedTea、Jazelle、Spring、Struts、TopLink、WildFly</td>
   </tr>
   <tr>
-    <td>历史</td>
+    <td align="right">历 史</td>
     <td>Java版本历史、JCP、太阳微系统、自由Java实现</td>
   </tr>
   <tr>
-    <td>主要JVM语言</td>
+    <td align="right">主要JVM语言</td>
     <td>BeanShell、Clojure、Groovy、Oxygene、JRuby、Jython、Kotlin、Processing、Rhino、Scala、Tcl/Java</td>
   </tr>
   <tr>
-    <td>会议</td>
+    <td align="right">会 议</td>
     <td>JavaOne、Devoxx</td>
   </tr>
 </table>
@@ -106,3 +106,4 @@ JDK中还包括各种样例程序，用以展示Java API中的各部分。
 | 版本号 | 维护人 |维护时间 |维护内容|
 | :- | :- | :-| :- |
 | v1.0 | [Jhin](https://blog.link-lin.cn) |2018-05-21|创建了本词条|
+| v1.1 | [Jhin](https://blog.link-lin.cn) |2018-05-29|修改了表格的格式|
