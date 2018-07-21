@@ -1,3 +1,3 @@
-# GCoperation.github.io
-## This repo is website about GC operation.
+# GCplus.github.io
+## This repo is website about GCplus.
 here are lots of chinese wiki. 
