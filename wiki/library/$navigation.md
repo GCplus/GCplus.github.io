@@ -93,3 +93,4 @@
 ##### CTF练习记录
 - [前言公告](?file=011-CTF练习记录/000-前言公告 "前言公告")
 - [Affine](?file=011-CTF练习记录/002-Affine "Affine")
+- [简单ctf题解](?file=011-CTF练习记录/003-简单ctf题解 "简单ctf题解")
