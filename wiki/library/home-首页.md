@@ -10,7 +10,7 @@
 + 下载安装windows的git工具(推荐[github on desktop](https://desktop.github.com/))
 + 如果你工作在linux环境下，那么一定具有Git的使用基础
 ### atom环境安装
-请参考[amWiki官方帮助](https://amwiki.org/doc/?file=010-%E4%B8%8A%E6%89%8B%E5%AF%BC%E8%AF%BB%E7%AF%87/001-Atom%E5%B9%B3%E5%8F%B05%E5%88%86%E9%92%9F%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B)
+请参考[amWiki官方帮助](http://amwiki.org/doc/?file=010-%E4%B8%8A%E6%89%8B%E5%AF%BC%E8%AF%BB%E7%AF%87/001-Atom%E5%B9%B3%E5%8F%B05%E5%88%86%E9%92%9F%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B)
 ### 如何修改
 1. 请先fork一份文档到你的github仓库
 2. 然后同步到本地仓库
