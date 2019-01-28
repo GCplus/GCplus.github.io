@@ -1,50 +1,160 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE HTML>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>格创-运维</title>
-<link href="web/css/index.css" type="text/css" rel="stylesheet">
-<link  href="web/css/style.css" type="text/css" rel="stylesheet">
+
+<link href="web/css/index_style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.min.js" type="text/javascript"></script>
 
 </head>
-
 <body>
-<div id="header"><!--页眉开始-->
-	<div class="nav">
-		<ul>
-    		<li><a href="https://gcplus.github.io" title="首页" target="_self">首页</a></li>
-   			<li><a href="https://gcplus.github.io/wiki/" title="格创运维资料库" target="_self">文库</a></li>
-   			<li><a  href="#"title="加入我们" target="_self">了解我们</a></li>
-  		</ul>    
-	</div> 
-</div><!--页眉结束-->
-<div id="content"><!--内容开始-->
-	<div id="banner">
-		<img src="web/img/2.png"/>
-	</div>          
-    <div class="txt">
-    	<h3>GCoperation</h3>
-        <br />
-        <p>虚拟的矩阵里，</p>
-        <p>你是想做看客？</p>
-        <p>还是成为创造者？</p>
-        <p>计算机硬件大神?</p>
-        <p>前沿的技术跟踪?</p>
-        <p>一对一指导学习?</p>
-        <p>网络攻防的技术梯队?</p>
-        <p>在这里你将见识到</p>
-        <p>网络的神秘 硬件的触感</p>
-        <p>语言的美学 架构的分布</p>
-        <p>还有神奇的算法</p>
-        <p></p>
-    </div> 
-    <div class="img">
-   		<a href="#" title="点击进入" target="_self"><img src="web/img/1.png"></a> 
-    </div>         
-</div><!--内容结束-->
-<div id="footer"><!--页脚开始-->
-	<div class="txt">
-	</div>            
-</div><!--页脚结束-->
+
+<!-----HEADER STAR----->
+
+
+<div class="header" id="demo">
+	<div class="top_logo"></div>  
+     
+	<div class="topcn" style="font:20px/18px 'microsoft yahei'; color:#0FF;text-align:center;">
+	  <p>&nbsp;</p>
+	  <p>虚拟的矩阵里，你是想做看客？还是成为创造者？<Br/><Br/>计算机硬件大神？前沿的技术跟踪？一对一指导学习？网络攻防的技术梯队?<Br/><Br/>在这里你将见识到网络的神秘、硬件的触感、语言的美学、架构的分布、还有神奇的算法</p>
+	</div>
+    
+    <div class="nav">
+    	<a class="gv" href="https://gcplus.github.io">首  页</a>
+        <a class="gv" href="https://gcplus.github.io/wiki/">文  库</a>
+        <a class="gv" href="http://www.gcplus.io/">站  点</a>
+        <a class="gv" href="https://github.com/GCplus">GCplus社区</a>
+        <a class="gv" href="#">历 程</a>
+        <a class="gv" href="https://github.com/orgs/GCplus/people">了解我们</a>
+   </div>
+    
+  <div class="canvaszz"> </div>
+  <canvas id="canvas"></canvas> 
+</div>
+
+
+<!-----HEADER END----->
+
+<!--用来解决视频右键菜单，用于视频上面的遮罩层 START-->
+<div class="videozz"></div>
+<!--用来解决视频右键菜单，用于视频上面的遮罩层 END-->
+
+<!--音乐 START-->
+	<audio controls autoplay="autoplay" class="audio">
+        <source src="web/css/Music.mp3" type="audio/mp3"> 
+        <source src="web/css/Music.ogg" type="audio/ogg"> 
+        <source src="web/css/Music.aac" type="audio/mp4"> 
+    </audio>
+<!--音乐 END-->
+
+
+<script>
+//宇宙特效
+"use strict";
+var canvas = document.getElementById('canvas'),
+  ctx = canvas.getContext('2d'),
+  w = canvas.width = window.innerWidth,
+  h = canvas.height = window.innerHeight,
+
+  hue = 217,
+  stars = [],
+  count = 0,
+  maxStars = 1300;//星星数量
+
+var canvas2 = document.createElement('canvas'),
+  ctx2 = canvas2.getContext('2d');
+canvas2.width = 100;
+canvas2.height = 100;
+var half = canvas2.width / 2,
+  gradient2 = ctx2.createRadialGradient(half, half, 0, half, half, half);
+gradient2.addColorStop(0.025, '#CCC');
+gradient2.addColorStop(0.1, 'hsl(' + hue + ', 61%, 33%)');
+gradient2.addColorStop(0.25, 'hsl(' + hue + ', 64%, 6%)');
+gradient2.addColorStop(1, 'transparent');
+
+ctx2.fillStyle = gradient2;
+ctx2.beginPath();
+ctx2.arc(half, half, half, 0, Math.PI * 2);
+ctx2.fill();
+
+// End cache
+
+function random(min, max) {
+  if (arguments.length < 2) {
+    max = min;
+    min = 0;
+  }
+
+  if (min > max) {
+    var hold = max;
+    max = min;
+    min = hold;
+  }
+
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function maxOrbit(x, y) {
+  var max = Math.max(x, y),
+    diameter = Math.round(Math.sqrt(max * max + max * max));
+  return diameter / 2;
+  //星星移动范围，值越大范围越小，
+}
+
+var Star = function() {
+
+  this.orbitRadius = random(maxOrbit(w, h));
+  this.radius = random(60, this.orbitRadius) / 8; 
+  //星星大小
+  this.orbitX = w / 2;
+  this.orbitY = h / 2;
+  this.timePassed = random(0, maxStars);
+  this.speed = random(this.orbitRadius) / 50000; 
+  //星星移动速度
+  this.alpha = random(2, 10) / 10;
+
+  count++;
+  stars[count] = this;
+}
+
+Star.prototype.draw = function() {
+  var x = Math.sin(this.timePassed) * this.orbitRadius + this.orbitX,
+    y = Math.cos(this.timePassed) * this.orbitRadius + this.orbitY,
+    twinkle = random(10);
+
+  if (twinkle === 1 && this.alpha > 0) {
+    this.alpha -= 0.05;
+  } else if (twinkle === 2 && this.alpha < 1) {
+    this.alpha += 0.05;
+  }
+
+  ctx.globalAlpha = this.alpha;
+  ctx.drawImage(canvas2, x - this.radius / 2, y - this.radius / 2, this.radius, this.radius);
+  this.timePassed += this.speed;
+}
+
+for (var i = 0; i < maxStars; i++) {
+  new Star();
+}
+
+function animation() {
+  ctx.globalCompositeOperation = 'source-over';
+  ctx.globalAlpha = 0.5; //尾巴
+  ctx.fillStyle = 'hsla(' + hue + ', 64%, 6%, 2)';
+  ctx.fillRect(0, 0, w, h)
+
+  ctx.globalCompositeOperation = 'lighter';
+  for (var i = 1, l = stars.length; i < l; i++) {
+    stars[i].draw();
+  };
+
+  window.requestAnimationFrame(animation);
+}
+
+animation();
+</script>
+
 </body>
 </html>
