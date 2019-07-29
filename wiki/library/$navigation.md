@@ -63,6 +63,7 @@
     - [列表](?file=004-计算机编程语言/005-学习Python/08-列表 "列表")
     - [字典](?file=004-计算机编程语言/005-学习Python/09-字典 "字典")
     - [随手简单笔记](?file=004-计算机编程语言/005-学习Python/10-随手简单笔记 "随手简单笔记")
+    - [PythonAssessment](?file=004-计算机编程语言/005-学习Python/11-PythonAssessment "PythonAssessment")
 
 ##### linux操作教程
 - **centos教程**
